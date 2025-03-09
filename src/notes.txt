@@ -1,0 +1,17 @@
+👉Why Java 8 is launched? What problem does it solve?
+   1) Java 8 launched to write code without much boilerplate code by using streams, lambda expression.
+   2) To implement functional programming.
+
+        ⭐️Lambda Expression:
+                👉 An anonymous function with no name, return type and access modifier.
+                   It is used to implement functional interface => An interface with only one abstract method.
+
+        ⭐️Functional Programming:
+                👉 It's called Functional Programming because the main hero in your code is the function.
+                👉 In traditional Java (before Java 8), the main hero was the class/object (OOP).
+                👉 But in Functional Programming (FP), the function itself becomes the hero.
+                👉 Functional Programming (FP) is a style of writing code where you treat functions like first-class citizens.
+                👉 It simply means:
+                    ⚪️You can pass a function as an argument to another function.
+                    ⚪️You can return a function from another function.
+                    ⚪️You can store a function in a variable just like you store numbers, strings, or objects.
