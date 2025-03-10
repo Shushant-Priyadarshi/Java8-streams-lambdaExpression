@@ -1,4 +1,4 @@
-package lambda_expression.predicate;
+package java8.functionalInterfaces.predicate;
 
 import java.util.function.Predicate;
 

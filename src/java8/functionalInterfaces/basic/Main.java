@@ -1,4 +1,4 @@
-package lambda_expression.basic;
+package java8.functionalInterfaces.basic;
 
 //Functional Interface => Interface with only one abstract method
 @FunctionalInterface
