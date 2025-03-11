@@ -1,0 +1,30 @@
+A Stream in Java is like a pipeline 🚀 that allows you to process a large amount of data efficiently and in a functional way.
+
+✅ Key Idea:
+    - Instead of looping through a list using for loops (for-each),
+    - Java 8 introduced Streams to process data faster and cleaner using functional programming.
+
+🚀 How to Use Java Streams?
+    1️⃣ Create a Stream (from a List, Set, or Array).
+    2️⃣ Process Data (filter, map, sort, etc.).
+    3️⃣ Collect Output (convert back to a List, Set, etc.).
+
+🚀 Java Streams Operations
+    1️⃣ Intermediate Operations (Transform Data)
+        👉 These return a new stream, allowing chaining.
+
+        filter(Predicate) → Keep only specific elements.
+        map(Function) → Transform elements.
+        sorted() → Sort elements.
+        distinct() → Remove duplicates.
+        limit(n) → Take only the first n elements.
+        skip(n) → Skip the first n elements.
+
+    2️⃣ Terminal Operations (End the Stream)
+        👉 These return a final result (List, Set, etc.).
+        toList() → Convert to List.
+        toSet() → Convert to Set.
+        forEach() → Loop through elements.
+        count() → Count elements.
+        collect(Collectors.toList()) → Collect elements into a list.
+        reduce() → Perform aggregation (sum, max, etc.).
