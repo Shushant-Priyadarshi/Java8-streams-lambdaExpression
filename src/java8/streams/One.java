@@ -19,5 +19,9 @@ public class One {
         //with streams
         List<String> uppercaseWithStreams = names.stream().map(String::toUpperCase).toList();
         System.out.println("names with streams: "+uppercaseWithStreams);
+
+        //count "l" in word
+        String str = "Hello World";
+        System.out.println( str.chars().filter(x -> x == 'l').count());
     }
 }
