@@ -1,0 +1,10 @@
+The Collectors class is a utility class in Java that provides methods for reducing and collecting
+elements from a Stream into various data structures like List, Set, Map, etc.
+
+Why Do We Need the Collectors Class?
+    - Converting Stream elements into Collections (List, Set, Map, etc.)
+    - Grouping and Partitioning data
+    - Performing aggregation operations like sum, average, and joining strings
+    - Creating immutable collections
+
+
